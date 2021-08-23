@@ -1,0 +1,56 @@
+[
+  {
+    "category": "футболки",
+    "name": "BG",
+    "image": "product_images/Без_названия.jpg",
+    "short_desc": "NEW",
+    "description": "",
+    "prise": "2500.00",
+    "count": 12
+  },
+  {
+    "category": "красовки",
+    "name": "BG",
+    "image": "product_images/images.jpg",
+    "short_desc": "NEW",
+    "description": "не дорого",
+    "prise": "7500.00",
+    "count": 45
+  },
+  {
+    "category": "джинсы",
+    "name": "BG",
+    "image": "product_images/Без_названия_1.jpg",
+    "short_desc": "NEW",
+    "description": "точно не дорого",
+    "prise": "500.00",
+    "count": 5
+  },
+  {
+    "category": "футболки",
+    "name": "BG",
+    "image": "product_images/Без_названия.jpg",
+    "short_desc": "NEW",
+    "description": "",
+    "prise": "5400.00",
+    "count": 12
+  },
+  {
+    "category": "куртки",
+    "name": "BG",
+    "image": "product_images/images.jpg",
+    "short_desc": "NEW",
+    "description": "",
+    "prise": "7500.00",
+    "count": 45
+  },
+  {
+    "category": "кеды",
+    "name": "BG",
+    "image": "product_images/Без_названия_1.jpg",
+    "short_desc": "NEW",
+    "description": "",
+    "prise": "700.00",
+    "count": 5
+  }
+]
