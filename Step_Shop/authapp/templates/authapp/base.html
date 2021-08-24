@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <link href="https://fonts.googleapis.com/css?family=Roboto:100,300,400,500,700" rel="stylesheet">
+
+    <title>{% block title %}{{ title|title }}{% endblock %}</title>
+
+    {% block css %}
+    <!-- Bootstrap core CSS -->
+    <link href="/static/Step_Shop/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+
+
+    <!-- Additional CSS Files -->
+    <link rel="stylesheet" href="/static/Step_Shop/assets/css/fontawesome.css">
+    <link rel="stylesheet" href="/static/Step_Shop/assets/css/tooplate-main.css">
+    <link rel="stylesheet" href="/static/Step_Shop/assets/css/owl.css">
+    {% endblock %}
+
+    {% block js %}
+    {% endblock %}
+    <!--
+    Tooplate 2114 Pixie
+    https://www.tooplate.com/view/2114-pixie
+    -->
+</head>
+
+<body>
+<div class="container">
+    <div class="login">
+        <div class="h2 text-center head">
+            вход в систему
+        </div>
+
+        {% block content %}
+        {% endblock %}
+    </div>
+</div>
+</body>
+</html>
