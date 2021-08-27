@@ -2,6 +2,8 @@ from django.shortcuts import render
 
 from mainapp.models import Product
 
+from mainapp.views import get_basket
+
 
 def index(request):
     title = 'магазин'
@@ -11,14 +13,29 @@ def index(request):
     context = {
         'title': title,
         'products': products,
+        'basket': get_basket(request),
     }
 
     return render(request, 'index.html', context=context)
 
 
 def contacts(request):
-    return render(request, 'contact.html')
+    title = 'contacts us'
+
+    context = {
+        'title': title,
+        'basket': get_basket(request),
+    }
+
+    return render(request, 'contact.html', context=context)
 
 
 def about(request):
-    return render(request, 'about.html')
+    title = 'about us'
+
+    context = {
+        'title': title,
+        'basket': get_basket(request),
+    }
+
+    return render(request, 'about.html', context=context)

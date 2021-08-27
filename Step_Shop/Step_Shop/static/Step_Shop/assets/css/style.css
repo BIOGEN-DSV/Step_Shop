@@ -1,0 +1,31 @@
+#pre-header .col-md-12 {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.basket {
+    display: flex;
+    justify-content: flex-end;
+    width: 28px;
+    height: 26px;
+    background: url(../images/basket.png) no-repeat;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+#pre-header .basket span {
+    margin-top: 3px;
+    margin-right: -6px;
+    width: 1px;
+    height: 0px;
+    font-size: 2px
+    padding: 0;
+    text-align: center;
+    color: white;
+    background-color: #3a8bcd;
+    border-radius: 50%;
+}
+
+#pre-header span {
+    padding: 0;
+}

@@ -16,11 +16,12 @@
         {% for product in products %}
 
         <div id="1" class="item new col-md-4">
-            <a href="#">
+            <a href="{% url 'products:product' product.pk %}">
                 <div class="featured-item">
                   <img src="/media/{{ product.image }}" alt="{{ product.short_desc }}">
-                  <h4>{{ product.description }}</h4>
+                  <h4>{{ product.name }}</h4>
                   <h6>${{ product.prise }}</h6>
+                  <p>{{ product.description }}</p>
                 </div>
               </a>
         </div>
